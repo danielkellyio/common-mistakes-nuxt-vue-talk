@@ -5,7 +5,7 @@ const counter = useInterval(1000);
 <template>
   <div class="flex h-[90vh] justify-center items-center">
     <Transition>
-      <div class="text-7xl" :key="counter">
+      <div class="text-7xl">
         {{ counter }}
       </div>
     </Transition>

@@ -17,7 +17,7 @@ const pokemons = ref([
   </h1>
 
   <ul class="grid grid-cols-4 gap-4 mt-3 text-center text-5xl" v-auto-animate>
-    <li v-for="pokemon in pokemons">
+    <li v-for="(pokemon, index) in pokemons" :key="index">
       {{ pokemon }}
     </li>
   </ul>
