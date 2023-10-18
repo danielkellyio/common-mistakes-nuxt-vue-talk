@@ -12,3 +12,8 @@ export interface Comment {
   email: string;
   body: string;
 }
+
+export interface Pokemon {
+  id: string;
+  name: string;
+}
