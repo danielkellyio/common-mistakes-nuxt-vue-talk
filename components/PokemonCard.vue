@@ -3,7 +3,9 @@ const props = defineProps<{
   slug: String;
 }>();
 
-const pokemon = await $fetch(`https://pokeapi.co/api/v2/pokemon/${props.slug}`);
+const { data: pokemon } = await useFetch(
+  `https://pokeapi.co/api/v2/pokemon/${props.slug}`
+);
 </script>
 <template>
   <UCard>
