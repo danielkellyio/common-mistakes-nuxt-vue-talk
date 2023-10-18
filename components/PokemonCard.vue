@@ -2,7 +2,6 @@
 const props = defineProps<{
   slug: String;
 }>();
-const pokemonSlugs = ["bulbasaur", "charmander", "squirtle"];
 
 const pokemon = await $fetch(`https://pokeapi.co/api/v2/pokemon/${props.slug}`);
 </script>
