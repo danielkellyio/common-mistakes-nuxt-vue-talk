@@ -6,6 +6,7 @@ const pages = [
   { id: 0, label: "Home", path: "/" },
   { id: 1, label: "v-for Key Example 1", path: "/1-v-for-key-no-state" },
   { id: 2, label: "v-for Key Example 2", path: "/1-v-for-key-with-state" },
+  { id: 2.5, label: "v-for Key Example 3", path: "/1-v-for-key-z" },
   {
     id: 3,
     label: "Non Reactive Deps Example (Obvious)",
